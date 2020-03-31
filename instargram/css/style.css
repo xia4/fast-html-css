@@ -21,7 +21,7 @@
     padding: 0 20px;
 }
 .header .inner .logo {
-   
+   display: flex;
 }
 .header .inner .logo span {
     display: inline-block;
@@ -65,13 +65,20 @@
 .header .inner .nav {
 
 }
-.header .inner .nav a {
+.header .inner .nav .link_list {
+    display: flex;
+}
+.header .inner .nav .link_list li {
     margin-left: 20px;
 }
-.header .inner .nav a:first-child {
+.header .inner .nav .link_list li:first-child {
     margin-left: 0;
 }
-.header .inner .nav a i {
+.header .inner .nav .link_list li a {
+    display: block;
+}
+
+.header .inner .nav .link_list li a i {
     color: #000;
     font-size: 20px;
 }
