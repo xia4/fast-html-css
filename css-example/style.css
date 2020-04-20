@@ -1,3 +1,21 @@
-.css-selector ~ li {
-    font-size: 20px;
+body {
+    background: gray;
+}
+.relative_smaple {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border: 10px solid yellow;
+    background: tomato;
+}
+.relative_sample2 {
+    position: relative;
+    top: -200px;
+    left: 50px;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border: 10px solid blue;
+    background: cadetblue;
 }
