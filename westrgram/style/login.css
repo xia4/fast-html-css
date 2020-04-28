@@ -61,7 +61,7 @@
 .form .button_box .btn {
     width: 100%;
     height: 100%;
-    background: #bfdffd;
+    background-color: #bfdffd;
     border: 1px solid #bfdffd;
     border-radius: 4px;
 }
