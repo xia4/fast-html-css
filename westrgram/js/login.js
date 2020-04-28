@@ -10,7 +10,7 @@ inputId.addEventListener('keyup', function(e){
     if(idValue.length > 0 && passwordValue.length > 0) {
         button.disabled = false;
         button.style.cursor = "pointer";
-        button.style.backgroundColor = "#1c7ed6"; //0095F6
+        button.style.backgroundColor = "#1c7ed6";
     }else {
         button.disabled = true;
         button.style.cursor = "default";
@@ -25,7 +25,7 @@ inputPassword.addEventListener('keyup', function(e){
     if(idValue.length > 0 && passwordValue.length > 0 ) {
         button.disabled = false;
         button.style.cursor = "pointer";
-        button.style.backgroundColor = "#1c7ed6"; //0095F6
+        button.style.backgroundColor = "#1c7ed6"; 
     }else {
         button.disabled = true;
         button.style.cursor = "default";
