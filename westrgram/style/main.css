@@ -172,8 +172,11 @@
     font-size: 15px;
     line-height: 1.4;
 }
-.comments_info .comments_tit span {
+.comments_info .comments_tit .user_id {
     font-weight: bold;
+}
+.comments_info .comments_tit .comment_contents {
+    padding-left: 5px;
 }
 .feed_comments .comment_list .feed_time {
     line-height: 1.4;
@@ -232,6 +235,10 @@
     flex: 1;
 }
 .contents_right .aside .pofile_info .profile_intro {
+    width: 150px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
     font-size: 12px;
     color: #8b8b8b;
 }
@@ -259,3 +266,15 @@
 /* // footer */
 
 /* //main */
+@media only screen and (max-width: 1150px) {
+    .contents_left {
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 800px) {  
+    .contents_right {  
+      display: none;
+      transition: transform .1s ease;
+    } 
+  }
