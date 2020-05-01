@@ -40,7 +40,6 @@ comments.addEventListener("keydown", function(e) {
         const commentCtnBox = document.createElement("span");
         let user ="test";
 
-
         userBox.setAttribute("class", "user_id");
         commentCtnBox.setAttribute("class", "comment_contents");
         pBox.setAttribute("class", "comments_tit");
