@@ -30,7 +30,10 @@ commentForm.addEventListener("submit", function(e) {
     e.preventDefault();
 });
 
+// 게시버튼 클릭 시 발생하는 함수
 submitButton.addEventListener("click",commentUpdate);
+
+// 게시글 작성 후 엔터를 쳤을 때 발생하는 함수
 comments.addEventListener("keydown", function(e) {
     if(e.keyCode === 13) {
         const ulbox = document.querySelector(".comments_info.comment_list_ul")

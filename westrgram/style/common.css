@@ -4,11 +4,6 @@
 .scroll {
     overflow: auto;
 }
-.clearfix::after {
-    display: block;
-    content: "";
-    clear: both;
-}
 .link_list {
     display: flex;
     align-items: center;
@@ -72,11 +67,9 @@
 .follow_title a .profile_intro {
     font-size: 14px;
 }
-
 .feed_profile.follow_list_wrap {
     padding: 0;
 }
-
 .follow_list {
     display: block;
     width: 100%;
