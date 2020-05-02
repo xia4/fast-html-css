@@ -245,6 +245,12 @@
 .contents_right .aside .follow {
 
 }
+.follow_info.follow_story {
+    padding-right: 0;
+}
+.follow_info.follow_story .follow_title span.sub_tit {
+    padding-right: 13px;
+}
 .follow_btn .btn span {
     font-size: 13px;
     font-weight: bold;
