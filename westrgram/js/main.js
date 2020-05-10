@@ -8,7 +8,7 @@ function commentUpdate() {
         const pBox =  document.createElement("div");
         const userBox = document.createElement("span");
         const commentCtnBox = document.createElement("span");
-        let user ="test";
+        let user ="kimjintae";
 
         userBox.setAttribute("class", "user_id");
         commentCtnBox.setAttribute("class", "comment_contents");
@@ -36,24 +36,7 @@ submitButton.addEventListener("click",commentUpdate);
 // 게시글 작성 후 엔터를 쳤을 때 발생하는 함수
 comments.addEventListener("keydown", function(e) {
     if(e.keyCode === 13) {
-        const ulbox = document.querySelector(".comments_info.comment_list_ul")
-        const liBox =  document.createElement("li");
-        const pBox =  document.createElement("div");
-        const userBox = document.createElement("span");
-        const commentCtnBox = document.createElement("span");
-        let user ="test";
-
-        userBox.setAttribute("class", "user_id");
-        commentCtnBox.setAttribute("class", "comment_contents");
-        pBox.setAttribute("class", "comments_tit");
-        userBox.innerHTML = user;
-        commentCtnBox.innerHTML = comments.value;
-       
-        pBox.appendChild(userBox);
-        pBox.appendChild(commentCtnBox);
-        liBox.appendChild(pBox);
-        ulbox.appendChild(liBox);
-        comments.value = "";
+        commentUpdate();
     }
 });
 
